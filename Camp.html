@@ -161,6 +161,17 @@
             font-weight: 700;
         }
 
+		/* LOGO RWD 響應式調整 */
+		@media (max-width: 1024px) {
+			.logo-bar {
+				top: -50px;
+				left: -50px;
+			}
+			.logo-bar img {
+				height: 150px;
+			}
+		}
+
         @media (max-width: 768px) {
             .hero-section {
                 padding: 24px 16px 20px;
@@ -178,7 +189,22 @@
                 bottom: 6%;
                 padding: 8px 14px;
             }
+			.logo-bar {
+				position: static; /* 改為靜態定位 */
+				text-align: center;
+				margin-bottom: 20px;
+			}
+			.logo-bar img {
+				height: 100px;
+				margin: 0 auto;
+			}
         }
+
+		@media (max-width: 480px) {
+			.logo-bar img {
+				height: 80px;
+			}
+		}
 
 		/* Hero CTA 按鈕 */
 		.cta-btn-hero {
@@ -1047,4 +1073,5 @@
     </script>
     </body>
 </html>
+
 
