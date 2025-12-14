@@ -143,8 +143,8 @@
         /* ========================================================================= */
         .hero-section {
             background: linear-gradient(135deg, #ffffff 0%, #f6f4ff 40%, #f4f4f4 100%);
-            padding: 40px 20px 30px;
-			position: relative; /* 為了讓左上角 LOGO 可以絕對定位在 Hero 裡 */
+    		padding: 140px 20px 30px; /* 增加上方 padding 避免被 LOGO 遮擋 */
+    		position: relative;
         }
 		
 		/* 左上角 Logiscool LOGO */
@@ -268,7 +268,7 @@
 
         @media (max-width: 768px) {
             .hero-section {
-                padding: 24px 16px 20px;
+                padding: 80px 16px 20px; /* 手機版也增加上方空間 */
             }
             .hero-title-line1,
             .hero-title-line2 {
@@ -1296,6 +1296,7 @@
     </script>
     </body>
 </html>
+
 
 
 
