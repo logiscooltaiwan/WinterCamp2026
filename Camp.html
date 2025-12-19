@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RFWDMZ6QV5"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	
-	  gtag('config', 'G-RFWDMZ6QV5');
-	</script>
-	
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFWDMZ6QV5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RFWDMZ6QV5');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO 基本設定 -->
     <title>邏輯酷程式學院 2026 冬令營 | Minecraft、Roblox、AI 程式營隊</title>
     <meta name="description" content="邏輯酷程式學院 2026 冬令營,提供 Minecraft、Roblox、AI 動畫等 12 種精彩課程。三週梯次可選,培養孩子邏輯思維與創造力。立即報名!">
     <meta name="keywords" content="程式教育,兒童程式,冬令營,Minecraft營隊,Roblox營隊,AI課程,邏輯酷,Logiscool,台北程式營,寒假營隊">
     <meta name="author" content="邏輯酷程式學院">
     <meta name="robots" content="index, follow">
-    
+
     <!-- Open Graph (Facebook、LinkedIn) -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="邏輯酷程式學院 2026 冬令營 | 啟動孩子的數位創造力">
@@ -29,13 +30,13 @@
     <meta property="og:url" content="https://logiscooltaiwan.github.io/WinterCamp2026/Camp.html">
     <meta property="og:site_name" content="邏輯酷程式學院">
     <meta property="og:locale" content="zh_TW">
-    
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="邏輯酷程式學院 2026 冬令營">
     <meta name="twitter:description" content="Minecraft、Roblox、AI 程式營隊,三週課程精彩登場!">
     <meta name="twitter:image" content="https://logiscooltaiwan.github.io/WinterCamp2026/images/hero_classroom.png">
-    
+
     <!-- 結構化資料 (JSON-LD) -->
     <script type="application/ld+json">
     {
@@ -61,7 +62,7 @@
       ]
     }
     </script>
-    
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -90,14 +91,14 @@
       }
     }
     </script>
-    
+
     <!-- Canonical URL -->
     <link rel="canonical" href="https://logiscooltaiwan.github.io/WinterCamp2026/Camp.html">
-    
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
-	
-	
+
+
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght=300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -106,15 +107,22 @@
         /* ========================================================================= */
         :root {
             /* Logiscool 品牌顏色 */
-            --primary-color: #144A73;      /* 深藍色 (主要文本、標籤底線、重要背景) */
-            --secondary-color: #E4007C;    /* 洋紅色/桃紅色 (點綴、突出重點) */
-            --accent-color: #00AEEF;       /* 亮藍色 (按鈕、強調連結) */
-            --success-color: #C4E800;      /* 螢光綠 (輔助色) */
-            
-            --light-bg: #F4F4F4;           /* 淺灰背景 */
-            --dark-footer-bg: #121A26;     /* 腳註背景：極深藍黑 */
+            --primary-color: #144A73;
+            /* 深藍色 (主要文本、標籤底線、重要背景) */
+            --secondary-color: #E4007C;
+            /* 洋紅色/桃紅色 (點綴、突出重點) */
+            --accent-color: #00AEEF;
+            /* 亮藍色 (按鈕、強調連結) */
+            --success-color: #C4E800;
+            /* 螢光綠 (輔助色) */
+
+            --light-bg: #F4F4F4;
+            /* 淺灰背景 */
+            --dark-footer-bg: #121A26;
+            /* 腳註背景：極深藍黑 */
             --text-color: #333;
-            --footer-text-color: #b0c4de; /* 腳註文字：淺藍灰 */
+            --footer-text-color: #b0c4de;
+            /* 腳註文字：淺藍灰 */
             --font-family: 'Noto Sans TC', sans-serif;
         }
 
@@ -128,79 +136,42 @@
             line-height: 1.6;
         }
 
-        h1, h2, h3 {
+        h1,
+        h2,
+        h3 {
             color: var(--primary-color);
             margin-top: 0;
         }
 
-		/* 新增這段 */
-		.header h1 {
-				color: #ffffff;
-		}
-
         /* ========================================================================= */
         /* 新增：Hero 區塊 */
         /* ========================================================================= */
+        /* 新增這段 */
+        .header h1 {
+            color: #ffffff;
+        }
+
         .hero-section {
             background: linear-gradient(135deg, #ffffff 0%, #f6f4ff 40%, #f4f4f4 100%);
-    		padding: 140px 20px 30px; /* 增加上方 padding 避免被 LOGO 遮擋 */
-    		position: relative;
+            padding: 40px 20px 30px;
+            position: relative;
         }
-		
-		/* 左上角 Logiscool LOGO */
-		.logo-bar {
-			position: absolute;
-			top: -70px;
-			left: -70px;
-			z-index: 10;
-		}
-
-		.logo-bar img {
-			height: 200px;   /* 可依實際 LOGO 比例調整 */
-			width: auto;
-			display: block;
-		}
 
         .hero-container {
             max-width: 1200px;
             margin: 0 auto;
             display: flex;
             align-items: center;
+            justify-content: center;
+            /* 讓圖片置中 */
             gap: 40px;
             flex-wrap: wrap;
         }
 
-        .hero-text {
-            flex: 1 1 320px;
-            min-width: 280px;
-        }
-
-        .hero-title-line1 {
-            font-size: 2.4rem;
-            font-weight: 700;
-            color: #111827;
-            margin: 0 0 5px;
-        }
-
-        .hero-title-line2 {
-            font-size: 2.4rem;
-            font-weight: 800;
-            margin: 0 0 15px;
-            background: linear-gradient(90deg, #304ffe, #9c27ff);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-
-        .hero-subtext {
-            font-size: 1rem;
-            color: #4b5563;
-            margin: 6px 0;
-        }
-
         .hero-image-wrapper {
             position: relative;
-            flex: 1 1 360px;
+            flex: 0 1 800px;
+            /* 調整圖片容器寬度 */
             min-width: 300px;
         }
 
@@ -211,113 +182,13 @@
             box-shadow: 0 18px 45px rgba(15, 23, 42, 0.25);
         }
 
-        .hero-badge {
-            position: absolute;
-            right: 10%;
-            bottom: 6%;
-            background: #ffffff;
-            border-radius: 999px;
-            padding: 10px 18px;
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.18);
-            font-size: 0.85rem;
-        }
-
-        .hero-badge-icon {
-            width: 28px;
-            height: 28px;
-            border-radius: 999px;
-            background-color: var(--success-color);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.9rem;
-            color: #064e3b;
-        }
-
-        .hero-badge-text {
-            line-height: 1.3;
-            color: #111827;
-        }
-
-        .hero-badge-text span {
-            display: block;
-        }
-
-        .hero-badge-text .badge-label {
-            font-size: 0.78rem;
-            color: #6b7280;
-        }
-
-        .hero-badge-text .badge-value {
-            font-weight: 700;
-        }
-
-		/* LOGO RWD 響應式調整 */
-		@media (max-width: 1024px) {
-			.logo-bar {
-				top: -50px;
-				left: -50px;
-			}
-			.logo-bar img {
-				height: 200px;
-			}
-		}
-
         @media (max-width: 768px) {
             .hero-section {
-                padding: 80px 16px 20px; /* 手機版也增加上方空間 */
+                padding: 30px 16px 20px;
             }
-            .hero-title-line1,
-            .hero-title-line2 {
-                font-size: 1.9rem;
-            }
-            .hero-container {
-                flex-direction: column;
-                gap: 24px;
-            }
-            .hero-badge {
-                right: 6%;
-                bottom: 6%;
-                padding: 8px 14px;
-            }
-			.logo-bar {
-				position: static; /* 改為靜態定位 */
-				text-align: center;
-				margin-bottom: 20px;
-			}
-			.logo-bar img {
-				height: 200px;
-				margin: 0 auto;
-			}
         }
 
-		@media (max-width: 480px) {
-			.logo-bar img {
-				height:200px;
-			}
-		}
 
-		/* Hero CTA 按鈕 */
-		.cta-btn-hero {
-			display: inline-block;
-			margin-top: 18px;
-			padding: 14px 32px;
-			background: var(--secondary-color);
-			color: white;
-			font-size: 1.2rem;
-			font-weight: 700;
-			border-radius: 8px;
-			text-decoration: none;
-			transition: 0.25s ease;
-			box-shadow: 0 6px 18px rgba(228, 0, 124, 0.35);
-		}
-		.cta-btn-hero:hover {
-			background: #c20064;
-			transform: translateY(-2px);
-		}
 
         /* 標頭區塊 */
         .header {
@@ -376,15 +247,18 @@
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-            transition: transform 0.3s ease, box-shadow 0.3s ease; /* **修正: 確保 transition 包含 box-shadow** */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            /* **修正: 確保 transition 包含 box-shadow** */
             display: flex;
             flex-direction: column;
         }
-        
+
         /* **修正: 課程卡片懸停效果** */
         .course-card:hover {
-            transform: translateY(-5px); /* 向上浮動 */
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* 更明顯的陰影 */
+            transform: translateY(-5px);
+            /* 向上浮動 */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            /* 更明顯的陰影 */
         }
 
         .course-header {
@@ -395,8 +269,8 @@
         }
 
         .course-header h3 {
-    		color: #ffffff;
-	}
+            color: #ffffff;
+        }
 
         .course-card .detail-button {
             background-color: var(--accent-color);
@@ -406,197 +280,201 @@
             border-radius: 5px;
             cursor: pointer;
             font-weight: 700;
-            margin-top: 10px; 
+            margin-top: 10px;
             transition: background-color 0.3s ease;
             width: 100%;
-            display: block; 
+            display: block;
         }
-        
+
         .course-card .detail-button:hover {
-            background-color: #008cc9; 
+            background-color: #008cc9;
         }
 
         .course-image {
             width: 100%;
-            height: 180px; 
-            overflow: hidden; /* 確保圖片放大時不會超出卡片邊界 */
+            height: 180px;
+            overflow: hidden;
+            /* 確保圖片放大時不會超出卡片邊界 */
         }
-        
+
         .course-image img {
             width: 100%;
             height: 100%;
-            object-fit: cover; 
+            object-fit: cover;
             transition: transform 0.3s ease;
         }
-        
+
         /* **修正: 課程圖片懸停效果 (確保只在圖片區域懸停)** */
         .course-card:hover .course-image img {
-            transform: scale(1.05); /* 圖片放大效果 */
+            transform: scale(1.05);
+            /* 圖片放大效果 */
         }
 
         .course-content {
             padding: 20px;
             flex-grow: 1;
-            display: flex; 
+            display: flex;
             flex-direction: column;
-            justify-content: space-between; 
+            justify-content: space-between;
         }
-        
+
         .course-content p {
             margin-top: 0;
-            margin-bottom: 15px; 
+            margin-bottom: 15px;
         }
 
-	/* 課程列表底部 CTA */
-.course-cta-wrapper {
-    text-align: center;
-    margin: 40px 0;
-}
+        /* 課程列表底部 CTA */
+        .course-cta-wrapper {
+            text-align: center;
+            margin: 40px 0;
+        }
 
-.cta-btn-secondary {
-    display: inline-block;
-    padding: 12px 28px;
-    background: var(--accent-color);
-    color: white;
-    font-size: 1.1rem;
-    font-weight: 700;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: 0.25s ease;
-    box-shadow: 0 6px 16px rgba(0, 174, 239, 0.35);
-}
-.cta-btn-secondary:hover {
-    background: #008cc9;
-    transform: translateY(-2px);
-}
+        .cta-btn-secondary {
+            display: inline-block;
+            padding: 12px 28px;
+            background: var(--accent-color);
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: 0.25s ease;
+            box-shadow: 0 6px 16px rgba(0, 174, 239, 0.35);
+        }
+
+        .cta-btn-secondary:hover {
+            background: #008cc9;
+            transform: translateY(-2px);
+        }
 
         /* ========================================================================= */
         /* 浮動卡片 (Modal) 樣式 (略) */
         /* ========================================================================= */
         .modal {
-            display: none; 
-			position: fixed; 
-			z-index: 2000; 
-			left: 0;
-			top: 0;
-			width: 100%; 
-			height: 100%; 
-			overflow-y: auto;
-			background-color: rgba(0,0,0,0.6); 
-			padding: 60px 0;
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 60px 0;
         }
 
         .modal-content {
             background-color: white;
-			margin: 20px auto; 
-			padding: 30px;
-			border-radius: 10px;
-			width: 90%; 
-			max-width: 800px;
-			box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-			position: relative;
+            margin: 20px auto;
+            padding: 30px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 800px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            position: relative;
         }
-        
+
         .modal-content h3 {
             color: var(--secondary-color);
             border-bottom: 2px solid var(--secondary-color);
             padding-bottom: 10px;
             margin-top: 0;
         }
-        
+
         .modal-section {
             margin-bottom: 20px;
             padding: 15px;
             background-color: var(--light-bg);
             border-radius: 8px;
         }
-        
+
         .modal-section h4 {
             color: var(--primary-color);
             margin-top: 0;
             margin-bottom: 10px;
         }
-		
-		#modal-schedule-image-wrapper {
-			text-align: center;
-		}
 
-		#modal-schedule-image {
-			display: inline-block;
-		}
-		
+        #modal-schedule-image-wrapper {
+            text-align: center;
+        }
+
         #modal-schedule-image {
-			display: inline-block;
-			cursor: pointer;
-			transition: transform 0.2s ease;
-		}
+            display: inline-block;
+        }
 
-		#modal-schedule-image:hover {
-			transform: scale(1.02);
-		}
+        #modal-schedule-image {
+            display: inline-block;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
 
-		/* 圖片放大 Modal */
-		.image-modal {
-			display: none;
-			position: fixed;
-			z-index: 9999;
-			left: 0;
-			top: 0;
-			width: 100%;
-			height: 100%;
-			background-color: rgba(0, 0, 0, 0.9);
-			padding: 20px;
-		}
+        #modal-schedule-image:hover {
+            transform: scale(1.02);
+        }
 
-		.image-modal-content {
-			position: fixed;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			max-width: 95vw;
-			max-height: 95vh;
-			width: auto;
-			height: auto;
-			object-fit: contain;
-			animation: zoomIn 0.3s ease;
-		}
+        /* 圖片放大 Modal */
+        .image-modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+        }
 
-		@keyframes zoomIn {
-			from {
-				transform: translate(-50%, -50%) scale(0.8);
-				opacity: 0;
-			}
-			to {
-				transform: translate(-50%, -50%) scale(1);
-				opacity: 1;
-			}
-		}
+        .image-modal-content {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 95vw;
+            max-height: 95vh;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            animation: zoomIn 0.3s ease;
+        }
 
-		.image-modal-close {
-			position: absolute;
-			top: 15px;
-			right: 35px;
-			color: #f1f1f1;
-			font-size: 40px;
-			font-weight: bold;
-			cursor: pointer;
-			transition: 0.3s;
-		}
+        @keyframes zoomIn {
+            from {
+                transform: translate(-50%, -50%) scale(0.8);
+                opacity: 0;
+            }
 
-		.image-modal-close:hover,
-		.image-modal-close:focus {
-			color: #bbb;
-		}
+            to {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
 
-		.image-modal-hint {
-			position: absolute;
-			bottom: 20px;
-			left: 50%;
-			transform: translateX(-50%);
-			color: #f1f1f1;
-			font-size: 14px;
-			text-align: center;
-		}
+        .image-modal-close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .image-modal-close:hover,
+        .image-modal-close:focus {
+            color: #bbb;
+        }
+
+        .image-modal-hint {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #f1f1f1;
+            font-size: 14px;
+            text-align: center;
+        }
 
         /* ========================================================================= */
         /* 戶外活動照片區塊 (Gallery) */
@@ -612,8 +490,8 @@
 
         .gallery-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-            gap: 15px; 
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
             margin-top: 25px;
         }
 
@@ -622,24 +500,24 @@
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             position: relative;
-            padding-top: 75%; 
+            padding-top: 75%;
             height: 0;
         }
-        
+
         .gallery-item img {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover; 
+            object-fit: cover;
             transition: transform 0.3s ease;
         }
 
         .gallery-item img:hover {
             transform: scale(1.05);
         }
-        
+
         /* ========================================================================= */
         /* FAQ/手風琴樣式 (略) */
         /* ========================================================================= */
@@ -653,9 +531,9 @@
         .faq-section h2 {
             text-align: center;
             margin-bottom: 30px;
-            color: var(--secondary-color); 
+            color: var(--secondary-color);
         }
-        
+
         .accordion-item {
             margin-bottom: 10px;
             border: 1px solid #ddd;
@@ -666,7 +544,7 @@
         .faq-question {
             cursor: pointer;
             padding: 15px 20px;
-            border-bottom: none; 
+            border-bottom: none;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -674,20 +552,20 @@
             color: var(--primary-color);
             transition: color 0.2s ease, background-color 0.2s ease;
             border-radius: 8px;
-            background-color: var(--light-bg); 
+            background-color: var(--light-bg);
         }
-        
+
         .faq-question:hover {
             color: var(--secondary-color);
             background-color: #f5f5f5;
         }
 
         .faq-answer {
-            max-height: 0; 
-            overflow: hidden; 
+            max-height: 0;
+            overflow: hidden;
             transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
             padding: 0 20px;
-            background-color: white; 
+            background-color: white;
             border-radius: 0 0 8px 8px;
         }
 
@@ -709,12 +587,12 @@
             content: '-';
             transform: rotate(180deg);
         }
-        
+
         /* ========================================================================= */
         /* Footer 樣式 (略) */
         /* ========================================================================= */
         .footer {
-            background-color: var(--dark-footer-bg); 
+            background-color: var(--dark-footer-bg);
             color: var(--footer-text-color);
             padding: 40px 20px;
             margin-top: 40px;
@@ -735,9 +613,9 @@
             min-width: 280px;
             padding: 0 15px;
         }
-        
+
         .footer-column:nth-child(2) {
-            flex: 0.8; 
+            flex: 0.8;
             min-width: 250px;
         }
 
@@ -746,14 +624,14 @@
         }
 
         .footer h3 {
-            color: white; 
+            color: white;
             font-size: 1.1em;
             margin-bottom: 20px;
             display: flex;
             align-items: center;
             white-space: nowrap;
         }
-        
+
         .footer-info-item {
             display: flex;
             margin-bottom: 15px;
@@ -765,106 +643,93 @@
             margin-right: 15px;
             color: var(--accent-color);
             padding-top: 3px;
-            min-width: 20px; 
-            text-align: center; 
+            min-width: 20px;
+            text-align: center;
         }
 
         .footer-info-item div {
-            line-height: 1.4; 
-            flex-grow: 1; 
+            line-height: 1.4;
+            flex-grow: 1;
         }
 
         .footer-info-item div p {
             margin-top: 0;
-            margin-bottom: 5px; 
+            margin-bottom: 5px;
         }
 
-        .footer-info-item > p {
-            margin: 3px 0 5px 0; 
+        .footer-info-item>p {
+            margin: 3px 0 5px 0;
             flex-grow: 1;
         }
-        
+
         /* ... (響應式調整略) ... */
 
         /* 新增：社群圖標基礎樣式 */
         .social-buttons {
             display: flex;
-            gap: 15px; /* 圖標間距 */
+            gap: 15px;
+            /* 圖標間距 */
             margin-top: 15px;
         }
 
         .social-buttons a {
             /* 調整外觀大小：決定圓圈或方塊的大小 */
-            width: 40px; 
+            width: 40px;
             height: 40px;
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 50%; /* 讓它變成圓形 */
-            color: white; /* 圖標顏色 */
+            border-radius: 50%;
+            /* 讓它變成圓形 */
+            color: white;
+            /* 圖標顏色 */
             text-decoration: none;
             transition: background-color 0.3s ease;
         }
 
         .social-buttons a i {
             /* 調整圖標本身的字體大小 */
-            font-size: 1.5em; /* 這裡控制圖標大小，1.5em 約為 24px */
+            font-size: 1.5em;
+            /* 這裡控制圖標大小，1.5em 約為 24px */
         }
-        
+
         /* 定義每個圖標的顏色 */
         .social-buttons .fb {
-            background-color: #3b5998; /* FB 藍色 */
+            background-color: #3b5998;
+            /* FB 藍色 */
         }
+
         .social-buttons .ig {
             background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
         }
+
         .social-buttons .line {
-            background-color: #00b900; /* Line 綠色 */
+            background-color: #00b900;
+            /* Line 綠色 */
         }
 
         .social-buttons a:hover {
             transform: scale(1.1);
         }
+
         /* ========================================================================= */
         /* SCSS Style 區塊 結束 */
         /* ========================================================================= */
     </style>
 </head>
+
 <body>
 
-    <!-- 新增的 Hero 區塊：啟動孩子的數位創造力 -->
+    <!-- 新增的 Hero 區塊：只保留圖片 -->
     <section class="hero-section">
-		<!-- 左上角 Logiscool LOGO -->
-		<div class="logo-bar">
-			<img src="images/Logo.png" alt="Logiscool 邏輯酷程式學院 Logo">
-		</div>
-		
         <div class="hero-container">
-            <div class="hero-text">
-				<h1 class="hero-title-line1">不是放養營,也不是補習班</h1>
-				<h1 class="hero-title-line2">是讓孩子寒假維持學習節奏的</h1>
-                <h1 class="hero-title-line2">程式 × AI 冬令營</h1>
-				<p class="hero-subtext" style="font-weight: 600; color: #144A73; margin-top: 15px;">
-					📍 台北市大安區 | 國父紀念館步行 1 分鐘<br>
-					👦👧 適合 6-14 歲 (國小~國中)
-				</p>
-                <p class="hero-subtext" style="margin-top: 20px;">
-					上午主題學習 | 下午活動放電
-					每天有成果，也不會太累
-                </p>
-				<a href="https://line.me/R/ti/p/@404zqjsu?oat_content=url&ts=10232152" class="cta-btn-hero">加入 LINE｜免費評估適合梯次</a>
-				<p style="font-size: 0.85rem; color: #666; margin-top: 12px; text-align: center;">
-					💬 不用現在報名,先聊聊孩子寒假安排
-				</p>
-           
-			</div>
             <div class="hero-image-wrapper">
-                <!-- 把這張圖換成你實際的檔名與路徑 -->
                 <img src="images/hero_classroom.png" alt="孩子們在教室中參與營隊的照片">
-
             </div>
         </div>
     </section>
+
+
 
     <header class="header">
         <div class="container">
@@ -874,7 +739,7 @@
     </header>
 
     <main class="container">
-        
+
         <section>
             <h2>📅 課程梯次選擇</h2>
             <div class="week-tabs">
@@ -892,13 +757,14 @@
 
         <section id="course-display">
             <div class="course-list">
-                </div>
+            </div>
         </section>
 
         <div class="course-cta-wrapper">
-    		<a href="https://forms.gle/f9it9ry351HVD3ZN8" class="cta-btn-secondary">立即報名冬令營</a>&nbsp;&nbsp;&nbsp;
-			<a href="https://line.me/R/ti/p/@404zqjsu?oat_content=url&ts=10232152" class="cta-btn-secondary">加入 LINE｜免費評估適合梯次</a>
-		</div>
+            <a href="https://forms.gle/f9it9ry351HVD3ZN8" class="cta-btn-secondary">立即報名冬令營</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://line.me/R/ti/p/@404zqjsu?oat_content=url&ts=10232152" class="cta-btn-secondary">加入
+                LINE｜免費評估適合梯次</a>
+        </div>
 
         <hr>
 
@@ -906,28 +772,28 @@
             <h2>📸 豐富的下午戶外活動回顧</h2>
             <p>除了程式學習，我們也注重孩子的身心發展，每天下午都有精彩的戶外活動！</p>
             <div class="gallery-container" id="outdoor-photos">
-                
+
                 <div class="gallery-item"><img src="images/outdoor/outdoor1.jpg" alt="戶外活動照片 1"></div>
                 <div class="gallery-item"><img src="images/outdoor/outdoor2.jpg" alt="戶外活動照片 2"></div>
                 <div class="gallery-item"><img src="images/outdoor/outdoor3.jpg" alt="戶外活動照片 3"></div>
                 <div class="gallery-item"><img src="images/outdoor/outdoor4.jpg" alt="戶外活動照片 4"></div>
                 <div class="gallery-item"><img src="images/outdoor/outdoor5.jpg" alt="戶外活動照片 5"></div>
                 <div class="gallery-item"><img src="images/outdoor/outdoor6.jpg" alt="戶外活動照片 6"></div>
-				<div class="gallery-item"><img src="images/outdoor/outdoor7.jpg" alt="戶外活動照片 7"></div>
-				<div class="gallery-item"><img src="images/outdoor/outdoor8.jpg" alt="戶外活動照片 8"></div>
-				<div class="gallery-item"><img src="images/outdoor/outdoor9.jpg" alt="戶外活動照片 9"></div>
-				<div class="gallery-item"><img src="images/outdoor/outdoor10.jpg" alt="戶外活動照片 10"></div>
+                <div class="gallery-item"><img src="images/outdoor/outdoor7.jpg" alt="戶外活動照片 7"></div>
+                <div class="gallery-item"><img src="images/outdoor/outdoor8.jpg" alt="戶外活動照片 8"></div>
+                <div class="gallery-item"><img src="images/outdoor/outdoor9.jpg" alt="戶外活動照片 9"></div>
+                <div class="gallery-item"><img src="images/outdoor/outdoor10.jpg" alt="戶外活動照片 10"></div>
             </div>
         </section>
 
         <section class="faq-section">
             <h2>❓ 家長常見問題 (FAQ)</h2>
             <div class="faq-list" id="faq-list-container">
-                </div>
+            </div>
         </section>
 
     </main>
-    
+
     <div id="courseModal" class="modal">
         <div class="modal-content">
             <span class="close-btn">&times;</span>
@@ -942,17 +808,14 @@
             <div class="modal-section">
                 <h4>📝 每日課表 (上/下午)</h4>
                 <div id="modal-schedule-image-wrapper">
-					<img id="modal-schedule-image" 
-					 src="" 
-					 alt="課程每日活動示意圖" 
-					 title="點擊放大查看"
-					 style="display: block; margin: 0 auto; width: 67%; border-radius: 8px; max-height: 400px; object-fit: cover;">
-					</div>
-					<br>
-					<p style="text-align: center; color: #888; font-size: 0.9em;">💡 點擊課表圖片可放大查看</p>
-				</div>
-				<p>※本學院保留隨時修正或解釋下午活動之最終權利</p>
-            
+                    <img id="modal-schedule-image" src="" alt="課程每日活動示意圖" title="點擊放大查看"
+                        style="display: block; margin: 0 auto; width: 67%; border-radius: 8px; max-height: 400px; object-fit: cover;">
+                </div>
+                <br>
+                <p style="text-align: center; color: #888; font-size: 0.9em;">💡 點擊課表圖片可放大查看</p>
+            </div>
+            <p>※本學院保留隨時修正或解釋下午活動之最終權利</p>
+
 
             <!--<div class="modal-section">
                 <h4>🎬 課程成果影片呈現</h4>
@@ -964,122 +827,129 @@
     
 	
 	<!-- 圖片放大 Modal -->
-	<div id="imageModal" class="image-modal">
-		<span class="image-modal-close">&times;</span>
-		<img class="image-modal-content" id="enlargedImage">
-		<div class="image-modal-hint">點擊任意處關閉</div>
-	</div>
-
-    <footer class="footer">
-        <div class="footer-grid">
-            
-            <div class="footer-column">
-                <h3><i class="fa-solid fa-laptop-code" style="color: var(--accent-color); margin-right: 10px;"></i> 邏輯酷程式學院</h3>
-                <div class="footer-content">
-                    <p>致力於培養下一代的邏輯思維與創造力。</p>
-                    <p>程式不只是枯燥的代碼，而是實現夢想的魔法工具。</p>
-                </div>
+            <div id="imageModal" class="image-modal">
+                <span class="image-modal-close">&times;</span>
+                <img class="image-modal-content" id="enlargedImage">
+                <div class="image-modal-hint">點擊任意處關閉</div>
             </div>
 
-            <div class="footer-column">
-                <h3 style="color: var(--accent-color);"><i class="fa-solid fa-address-book" style="margin-right: 10px;"></i> 聯絡我們</h3>
-                <div class="footer-info">
-                    <div class="footer-info-item">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <div>
-                            <p>臺北市大安區忠孝東路四段333號5樓 (大巨蛋旁)</p>
-                            <p style="font-size: 0.85em;">捷運國父紀念館站 1 號出口步行 3 分鐘</p>
+            <footer class="footer">
+                <div class="footer-grid">
+
+                    <div class="footer-column">
+                        <h3><i class="fa-solid fa-laptop-code"
+                                style="color: var(--accent-color); margin-right: 10px;"></i> 邏輯酷程式學院</h3>
+                        <div class="footer-content">
+                            <p>致力於培養下一代的邏輯思維與創造力。</p>
+                            <p>程式不只是枯燥的代碼，而是實現夢想的魔法工具。</p>
                         </div>
                     </div>
-                    <div class="footer-info-item">
-                        <i class="fa-solid fa-phone"></i>
-                        <div>
-                            <p>02-2773-9386</p>
-                            <p style="font-size: 0.85em;">(週二至週六 13:00-21:00)</p>
+
+                    <div class="footer-column">
+                        <h3 style="color: var(--accent-color);"><i class="fa-solid fa-address-book"
+                                style="margin-right: 10px;"></i> 聯絡我們</h3>
+                        <div class="footer-info">
+                            <div class="footer-info-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <p>臺北市大安區忠孝東路四段333號5樓 (大巨蛋旁)</p>
+                                    <p style="font-size: 0.85em;">捷運國父紀念館站 1 號出口步行 3 分鐘</p>
+                                </div>
+                            </div>
+                            <div class="footer-info-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <p>02-2773-9386</p>
+                                    <p style="font-size: 0.85em;">(週二至週六 13:00-21:00)</p>
+                                </div>
+                            </div>
+                            <div class="footer-info-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p style="margin-top: 0;">hello.tpc-guangfu@logiscool.com</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="footer-info-item">
-                        <i class="fa-solid fa-envelope"></i>
-                        <p style="margin-top: 0;">hello.tpc-guangfu@logiscool.com</p>
+
+                    <div class="footer-column">
+                        <h3 style="color: var(--success-color);"><i class="fa-solid fa-heart"
+                                style="margin-right: 10px;"></i> 關注我們</h3>
+                        <div class="social-buttons">
+                            <a href="https://www.facebook.com/LogiscoolTaiwan/?locale=zh_TW" target="_blank" class="fb"
+                                aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/logiscool_tw/" target="_blank" class="ig"
+                                aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://line.me/R/ti/p/@404zqjsu?oat_content=url&ts=10232152" target="_blank"
+                                class="line" aria-label="Line">
+                                <i class="fa-brands fa-line"></i>
+                            </a>
+                        </div>
                     </div>
+
                 </div>
-            </div>
-
-            <div class="footer-column">
-                <h3 style="color: var(--success-color);"><i class="fa-solid fa-heart" style="margin-right: 10px;"></i> 關注我們</h3>
-                <div class="social-buttons">
-                    <a href="https://www.facebook.com/LogiscoolTaiwan/?locale=zh_TW" target="_blank" class="fb" aria-label="Facebook">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://www.instagram.com/logiscool_tw/" target="_blank" class="ig" aria-label="Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://line.me/R/ti/p/@404zqjsu?oat_content=url&ts=10232152" target="_blank" class="line" aria-label="Line">
-                        <i class="fa-brands fa-line"></i>
-                    </a>
+                <div
+                    style="text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 20px; margin-top: 20px; font-size: 0.8em;">
+                    &copy; 2026 邏輯酷程式學院 冬令營. All Rights Reserved.
                 </div>
-            </div>
-
-        </div>
-        <div style="text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 20px; margin-top: 20px; font-size: 0.8em;">
-             &copy; 2026 邏輯酷程式學院 冬令營. All Rights Reserved.
-        </div>
-    </footer>
+            </footer>
 
 
-    <script>
-        // 1. 課程資料庫 (保持不變)
-        const courseData = {
-            'W1': [
-                { id: 'W1-C1', name: '麥塊海底世界營 Mini (6 歲~3 年級)', intro: '加入 Minecraft 海底探險營隊，讓我們一同開啟一段奇妙的深海之旅！準備好了嗎？一起潛入知識的海洋，發掘未知的寶藏吧！', knowledge: ['海底基地建設','交通系統建造','防衛機制設計','探索工具開發'], schedule: { am: '積木工具與介面操作、基礎結構搭建', pm: '紅石機關實驗、戶外團體遊戲' }, videoId: 'YOUR_YOUTUBE_ID_W1C1', imageUrl: 'images/5.png',scheduleImageUrl: 'images/W1C1.png'  },
-                { id: 'W1-C2', name: '麥塊 YouTuber 養成營 (4 年級以上)', intro: 'Minecraft 不只是遊戲，更是一個充滿創意的舞台！在這五天的營隊中，孩子們將從玩家變成導演與剪輯師，一步步學會如何錄製、剪輯、加特效，打造屬於自己的 Minecraft 短片。', knowledge: ['腳本設計與分鏡', '錄影軟體操作', '基礎剪輯技巧 (上字幕/配樂)', '口語表達訓練'], schedule: { am: '實況技巧與腳本撰寫', pm: '分組錄影實戰、影片剪輯與回饋' }, videoId: 'YOUR_YOUTUBE_ID_W1C2', imageUrl: 'images/3.png',scheduleImageUrl: 'images/W1C2.png'  },
-                { id: 'W1-C3', name: 'Roblox 驚魂挑戰營 (4 年級以上)', intro: '黑暗籠罩的走廊、閃爍的燈光、傳來神祕的腳步聲……最終，學生將完成一個完整可玩的「恐怖逃脫遊戲」，並在最後一天舉辦 實境逃脫挑戰賽，讓同學們一起體驗他們創造的緊張氛圍與程式魔法。', knowledge: ['Roblox Studio 介面', '遊戲物件屬性', '觸發器與機關設置', '基礎 LUA 程式觀念'], schedule: { am: '遊戲場景搭建與機關設計', pm: '驚險遊戲實測、戶外體能活動' }, videoId: 'YOUR_YOUTUBE_ID_W1C3', imageUrl: 'images/2.png',scheduleImageUrl: 'images/W1C3.png'  },
-                { id: 'W1-C4', name: 'AI 動畫導演營 (3 年級以上)', intro: '在 AI 時代，創作不再需要高深的繪畫或編程技巧！我們為國小學生設計了最前沿的 AI 動畫營隊，讓孩子們在短短五天內，學會利用人工智慧的力量，將腦中的奇思妙想轉化為一段完整的 30 秒動畫短片！', knowledge: ['AI 繪圖提示詞 (Prompt) 技巧', 'AI 動畫生成流程', '故事版與角色設計', '配音與配樂結合'], schedule: { am: 'AI 提示詞訓練與圖像生成', pm: '動畫製作與合成、戶外創意發想' }, videoId: 'YOUR_YOUTUBE_ID_W1C4', imageUrl: 'images/11.png',scheduleImageUrl: 'images/W1C4.png'  }
-            ],
-            'W2': [
-                { id: 'W2-C1', name: '麥塊侏儸紀冒險營 Mini (6 歲~3 年級)', intro: '這是一個結合 Minecraft 創意建築與紅石機關的主題課程，讓孩子們在侏儸紀世界中學習邏輯與動手實作！你準備好迎接這場紅石與恐龍的冒險了嗎？快來加入我們，一起探索 Minecraft 侏儸紀世界吧！', knowledge: ['資源管理策略', '多層次紅石邏輯', '自動化系統設計', '環境適應性建築'], schedule: { am: '火星生存概念與紅石系統實作', pm: '基地設計競賽與分享、戶外大地遊戲' }, videoId: 'YOUR_YOUTUBE_ID_W2C1', imageUrl: 'images/7.png',scheduleImageUrl: 'images/W2C1.png'  },
-                { id: 'W2-C2', name: '麥塊冰凍星球營 (4 年級以上)', intro: '你準備好成為極地探險隊的一員了嗎？在這個課程裡，我們將帶你進入 Minecraft 中最嚴酷的環境——冰凍星球！這一場結合極地生態知識、紅石機關邏輯與頂尖建築設計的跨域學習之旅。<br>不僅能學到邏輯思維，也學會理解環境與保育。', knowledge: ['極地生態學與食物網', '紅石邏輯與電路', '地型改造技巧', '冰雪城市的建築與設計'], schedule: { am: '指令方塊與極地生存機制設計', pm: '冰雪城市專案開發、戶外觀察與探索' }, videoId: 'YOUR_YOUTUBE_ID_W2C2', imageUrl: 'images/8.png',scheduleImageUrl: 'images/W2C2.png'  },
-                { id: 'W2-C3', name: 'Roblox AI 多元宇宙營 (4 年級以上)', intro: 'Roblox AI 多元宇宙營帶你進入遊戲開發的神奇世界！學習 Roblox Studio 基礎，結合 AI 技術，打造多人合作遊戲。從遊戲安全、帳戶保護、密碼學，到 AI 自動編碼腳本，讓你的創意無限延伸。', knowledge: ['LUA 基礎程式控制', '多人合作遊戲設計', 'AI 編碼與腳本自動化', '遊戲 UI、特效與魔法門'], schedule: { am: 'LUA 程式與 AI NPC 行為設計', pm: '多元宇宙場景實作與測試、戶外競賽活動' }, videoId: 'YOUR_YOUTUBE_ID_W2C3', imageUrl: 'images/4.png',scheduleImageUrl: 'images/W2C3.png'  },
-                { id: 'W2-C4', name: 'AI 繪圖大師營 (3 年級以上)', intro: '這堂課將帶你從電腦繪圖基礎到 AI 生成藝術，學習 AI 影像技術的原理，並運用 AI 工具創作不同風格的畫作。透過探索數位繪圖技巧，你將能更精準地指導 AI 生成作品', knowledge: ['AI 繪圖技術', '數位圖像設計', '多重提示詞與權重分配', 'AI 修圖與影像處理'], schedule: { am: '高級提示詞與 AI 藝術風格研究', pm: '專題創作與作品集整理、戶外寫生與觀察' }, videoId: 'YOUR_YOUTUBE_ID_W2C4', imageUrl: 'images/12.png',scheduleImageUrl: 'images/W2C4.png'  }
-            ],
-            'W3': [
-                { id: 'W3-C1', name: '麥塊紅石高手營 Mini (6 歲~3 年級)', intro: '透過紅石系統學習仿真電路結構原理以及邏輯思維,進而創造出具有挑戰性的裝置,像是太陽能板、自動農場、密碼門等等。不僅好玩,更能培養問題解決能力,讓孩子從遊戲中獲得成長!', knowledge: ['電路結構創造', '紅石基礎', '邏輯閘觀念', '實現麥塊自動化'], schedule: { am: '城市規劃與分組建設', pm: '城市功能實測與優化、戶外公益活動' }, videoId: 'YOUR_YOUTUBE_ID_W3C1', imageUrl: 'images/10.png',scheduleImageUrl: 'images/W3C1.png'  },
-                { id: 'W3-C2', name: '麥塊迷宮大師營 (4 年級以上)', intro: '在這五天的Minecraft課程中，孩子們將學習如何運用紅石機關設計並打造一座結合邏輯謎題、隱藏房間與陷阱的「密室逃脫遊戲」。透過動手實作與循序漸進的教學，引導孩子從基本建築與紅石原理入門，到進階的邏輯運算、翻轉開關（Flip-Flop）與密碼鎖設計，最後完成一個可以實際遊玩的冒險密室！', knowledge: ['紅石邏輯設計機關與謎題', '建造密室迷宮', '解謎與邏輯設計', '密室逃脫遊戲'], schedule: { am: '複雜機關與迷宮路徑設計', pm: '分組迷宮挑戰與評測、戶外尋寶遊戲' }, videoId: 'YOUR_YOUTUBE_ID_W3C2', imageUrl: 'images/6.png',scheduleImageUrl: 'images/W3C2.png'  },
-                { id: 'W3-C3', name: 'Roblox Lua 程式開發營 (4 年級以上)', intro: '不只學 Roblox Studio，還能學程式！通過使用和編輯程式腳本，學生在這門課還能深入了解 Lua 程式語言！', knowledge: ['Roblox Studio 進階功能', '創建自建模組與地圖', '熟悉遊戲設計原則', '基礎Lua 程式語言使用'], schedule: { am: 'LUA 程式核心概念講解與練習', pm: '進階遊戲機制開發、戶外邏輯解謎' }, videoId: 'YOUR_YOUTUBE_ID_W3C3', imageUrl: 'images/1.png',scheduleImageUrl: 'images/W3C3.png'  },
-                { id: 'W3-C4', name: '小小駭客營 (4 年級以上)', intro: '想成為像電影裡的駭客，破解密碼、爬取資訊，甚至參加駭客競賽嗎？本營隊將帶領你學習 Python 程式設計、網路爬蟲、密碼學、資安攻防，並在最後一天進行黑客松競賽，透過團隊合作破解挑戰！', knowledge: ['密碼學基礎', '網路釣魚與詐騙識別', '資料備份與防護', '合法與非法的網路行為界線'], schedule: { am: '資訊安全概念與案例分析', pm: '密碼破解小遊戲、戶外團隊合作挑戰' }, videoId: 'YOUR_YOUTUBE_ID_W3C4', imageUrl: 'images/9.png',scheduleImageUrl: 'images/W3C4.png'  }
-            ]
-        };
-        
-        // 2. FAQ 資料庫 (保持不變)
-        const faqData = [
-            { id: 'faq-1', question: 'Q: 師生比是多少呢？', answer: 'A: 1:12，一名教師最多帶領12位學生唷！' },
-            { id: 'faq-2', question: 'Q: 營隊期間是否有提供上課設備？', answer: 'A: 是的，所有課程所需的電腦等硬體設備，皆由學院統一提供。學生不需自行攜帶電腦，只需準備水壺和愉快的心情即可。' },
-			{ id: 'faq-3', question: 'Q: 用多久電腦會休息一次？', answer: 'A: 每50-60分鐘會休息約10分鐘唷！家長可以幫孩子準備抗藍光眼鏡。' },            
-            { id: 'faq-4', question: 'Q: 如果遇到下雨，戶外活動會取消嗎？', answer: 'A: 若遇下雨或其他惡劣天氣，我們會啟動備用計畫，將戶外活動調整為室內的體能遊戲、桌遊競賽或更深入的程式主題活動，確保學習和活動的豐富性不受影響。' },
-			{ id: 'faq-5', question: 'Q: 我只想參加半天的營隊可以嗎？', answer: 'A: 可以的，價格請詢問客服人員。' }   
-        ];
+            <script>
+                // 1. 課程資料庫 (保持不變)
+                const courseData = {
+                    'W1': [
+                        { id: 'W1-C1', name: '麥塊海底世界營 Mini (6 歲~3 年級)', intro: '加入 Minecraft 海底探險營隊，讓我們一同開啟一段奇妙的深海之旅！準備好了嗎？一起潛入知識的海洋，發掘未知的寶藏吧！', knowledge: ['海底基地建設', '交通系統建造', '防衛機制設計', '探索工具開發'], schedule: { am: '積木工具與介面操作、基礎結構搭建', pm: '紅石機關實驗、戶外團體遊戲' }, videoId: 'YOUR_YOUTUBE_ID_W1C1', imageUrl: 'images/5.png', scheduleImageUrl: 'images/W1C1.png' },
+                        { id: 'W1-C2', name: '麥塊 YouTuber 養成營 (4 年級以上)', intro: 'Minecraft 不只是遊戲，更是一個充滿創意的舞台！在這五天的營隊中，孩子們將從玩家變成導演與剪輯師，一步步學會如何錄製、剪輯、加特效，打造屬於自己的 Minecraft 短片。', knowledge: ['腳本設計與分鏡', '錄影軟體操作', '基礎剪輯技巧 (上字幕/配樂)', '口語表達訓練'], schedule: { am: '實況技巧與腳本撰寫', pm: '分組錄影實戰、影片剪輯與回饋' }, videoId: 'YOUR_YOUTUBE_ID_W1C2', imageUrl: 'images/3.png', scheduleImageUrl: 'images/W1C2.png' },
+                        { id: 'W1-C3', name: 'Roblox 驚魂挑戰營 (4 年級以上)', intro: '黑暗籠罩的走廊、閃爍的燈光、傳來神祕的腳步聲……最終，學生將完成一個完整可玩的「恐怖逃脫遊戲」，並在最後一天舉辦 實境逃脫挑戰賽，讓同學們一起體驗他們創造的緊張氛圍與程式魔法。', knowledge: ['Roblox Studio 介面', '遊戲物件屬性', '觸發器與機關設置', '基礎 LUA 程式觀念'], schedule: { am: '遊戲場景搭建與機關設計', pm: '驚險遊戲實測、戶外體能活動' }, videoId: 'YOUR_YOUTUBE_ID_W1C3', imageUrl: 'images/2.png', scheduleImageUrl: 'images/W1C3.png' },
+                        { id: 'W1-C4', name: 'AI 動畫導演營 (3 年級以上)', intro: '在 AI 時代，創作不再需要高深的繪畫或編程技巧！我們為國小學生設計了最前沿的 AI 動畫營隊，讓孩子們在短短五天內，學會利用人工智慧的力量，將腦中的奇思妙想轉化為一段完整的 30 秒動畫短片！', knowledge: ['AI 繪圖提示詞 (Prompt) 技巧', 'AI 動畫生成流程', '故事版與角色設計', '配音與配樂結合'], schedule: { am: 'AI 提示詞訓練與圖像生成', pm: '動畫製作與合成、戶外創意發想' }, videoId: 'YOUR_YOUTUBE_ID_W1C4', imageUrl: 'images/11.png', scheduleImageUrl: 'images/W1C4.png' }
+                    ],
+                    'W2': [
+                        { id: 'W2-C1', name: '麥塊侏儸紀冒險營 Mini (6 歲~3 年級)', intro: '這是一個結合 Minecraft 創意建築與紅石機關的主題課程，讓孩子們在侏儸紀世界中學習邏輯與動手實作！你準備好迎接這場紅石與恐龍的冒險了嗎？快來加入我們，一起探索 Minecraft 侏儸紀世界吧！', knowledge: ['資源管理策略', '多層次紅石邏輯', '自動化系統設計', '環境適應性建築'], schedule: { am: '火星生存概念與紅石系統實作', pm: '基地設計競賽與分享、戶外大地遊戲' }, videoId: 'YOUR_YOUTUBE_ID_W2C1', imageUrl: 'images/7.png', scheduleImageUrl: 'images/W2C1.png' },
+                        { id: 'W2-C2', name: '麥塊冰凍星球營 (4 年級以上)', intro: '你準備好成為極地探險隊的一員了嗎？在這個課程裡，我們將帶你進入 Minecraft 中最嚴酷的環境——冰凍星球！這一場結合極地生態知識、紅石機關邏輯與頂尖建築設計的跨域學習之旅。<br>不僅能學到邏輯思維，也學會理解環境與保育。', knowledge: ['極地生態學與食物網', '紅石邏輯與電路', '地型改造技巧', '冰雪城市的建築與設計'], schedule: { am: '指令方塊與極地生存機制設計', pm: '冰雪城市專案開發、戶外觀察與探索' }, videoId: 'YOUR_YOUTUBE_ID_W2C2', imageUrl: 'images/8.png', scheduleImageUrl: 'images/W2C2.png' },
+                        { id: 'W2-C3', name: 'Roblox AI 多元宇宙營 (4 年級以上)', intro: 'Roblox AI 多元宇宙營帶你進入遊戲開發的神奇世界！學習 Roblox Studio 基礎，結合 AI 技術，打造多人合作遊戲。從遊戲安全、帳戶保護、密碼學，到 AI 自動編碼腳本，讓你的創意無限延伸。', knowledge: ['LUA 基礎程式控制', '多人合作遊戲設計', 'AI 編碼與腳本自動化', '遊戲 UI、特效與魔法門'], schedule: { am: 'LUA 程式與 AI NPC 行為設計', pm: '多元宇宙場景實作與測試、戶外競賽活動' }, videoId: 'YOUR_YOUTUBE_ID_W2C3', imageUrl: 'images/4.png', scheduleImageUrl: 'images/W2C3.png' },
+                        { id: 'W2-C4', name: 'AI 繪圖大師營 (3 年級以上)', intro: '這堂課將帶你從電腦繪圖基礎到 AI 生成藝術，學習 AI 影像技術的原理，並運用 AI 工具創作不同風格的畫作。透過探索數位繪圖技巧，你將能更精準地指導 AI 生成作品', knowledge: ['AI 繪圖技術', '數位圖像設計', '多重提示詞與權重分配', 'AI 修圖與影像處理'], schedule: { am: '高級提示詞與 AI 藝術風格研究', pm: '專題創作與作品集整理、戶外寫生與觀察' }, videoId: 'YOUR_YOUTUBE_ID_W2C4', imageUrl: 'images/12.png', scheduleImageUrl: 'images/W2C4.png' }
+                    ],
+                    'W3': [
+                        { id: 'W3-C1', name: '麥塊紅石高手營 Mini (6 歲~3 年級)', intro: '透過紅石系統學習仿真電路結構原理以及邏輯思維,進而創造出具有挑戰性的裝置,像是太陽能板、自動農場、密碼門等等。不僅好玩,更能培養問題解決能力,讓孩子從遊戲中獲得成長!', knowledge: ['電路結構創造', '紅石基礎', '邏輯閘觀念', '實現麥塊自動化'], schedule: { am: '城市規劃與分組建設', pm: '城市功能實測與優化、戶外公益活動' }, videoId: 'YOUR_YOUTUBE_ID_W3C1', imageUrl: 'images/10.png', scheduleImageUrl: 'images/W3C1.png' },
+                        { id: 'W3-C2', name: '麥塊迷宮大師營 (4 年級以上)', intro: '在這五天的Minecraft課程中，孩子們將學習如何運用紅石機關設計並打造一座結合邏輯謎題、隱藏房間與陷阱的「密室逃脫遊戲」。透過動手實作與循序漸進的教學，引導孩子從基本建築與紅石原理入門，到進階的邏輯運算、翻轉開關（Flip-Flop）與密碼鎖設計，最後完成一個可以實際遊玩的冒險密室！', knowledge: ['紅石邏輯設計機關與謎題', '建造密室迷宮', '解謎與邏輯設計', '密室逃脫遊戲'], schedule: { am: '複雜機關與迷宮路徑設計', pm: '分組迷宮挑戰與評測、戶外尋寶遊戲' }, videoId: 'YOUR_YOUTUBE_ID_W3C2', imageUrl: 'images/6.png', scheduleImageUrl: 'images/W3C2.png' },
+                        { id: 'W3-C3', name: 'Roblox Lua 程式開發營 (4 年級以上)', intro: '不只學 Roblox Studio，還能學程式！通過使用和編輯程式腳本，學生在這門課還能深入了解 Lua 程式語言！', knowledge: ['Roblox Studio 進階功能', '創建自建模組與地圖', '熟悉遊戲設計原則', '基礎Lua 程式語言使用'], schedule: { am: 'LUA 程式核心概念講解與練習', pm: '進階遊戲機制開發、戶外邏輯解謎' }, videoId: 'YOUR_YOUTUBE_ID_W3C3', imageUrl: 'images/1.png', scheduleImageUrl: 'images/W3C3.png' },
+                        { id: 'W3-C4', name: '小小駭客營 (4 年級以上)', intro: '想成為像電影裡的駭客，破解密碼、爬取資訊，甚至參加駭客競賽嗎？本營隊將帶領你學習 Python 程式設計、網路爬蟲、密碼學、資安攻防，並在最後一天進行黑客松競賽，透過團隊合作破解挑戰！', knowledge: ['密碼學基礎', '網路釣魚與詐騙識別', '資料備份與防護', '合法與非法的網路行為界線'], schedule: { am: '資訊安全概念與案例分析', pm: '密碼破解小遊戲、戶外團隊合作挑戰' }, videoId: 'YOUR_YOUTUBE_ID_W3C4', imageUrl: 'images/9.png', scheduleImageUrl: 'images/W3C4.png' }
+                    ]
+                };
+
+                // 2. FAQ 資料庫 (保持不變)
+                const faqData = [
+                    { id: 'faq-1', question: 'Q: 師生比是多少呢？', answer: 'A: 1:12，一名教師最多帶領12位學生唷！' },
+                    { id: 'faq-2', question: 'Q: 營隊期間是否有提供上課設備？', answer: 'A: 是的，所有課程所需的電腦等硬體設備，皆由學院統一提供。學生不需自行攜帶電腦，只需準備水壺和愉快的心情即可。' },
+                    { id: 'faq-3', question: 'Q: 用多久電腦會休息一次？', answer: 'A: 每50-60分鐘會休息約10分鐘唷！家長可以幫孩子準備抗藍光眼鏡。' },
+                    { id: 'faq-4', question: 'Q: 如果遇到下雨，戶外活動會取消嗎？', answer: 'A: 若遇下雨或其他惡劣天氣，我們會啟動備用計畫，將戶外活動調整為室內的體能遊戲、桌遊競賽或更深入的程式主題活動，確保學習和活動的豐富性不受影響。' },
+                    { id: 'faq-5', question: 'Q: 我只想參加半天的營隊可以嗎？', answer: 'A: 可以的，價格請詢問客服人員。' }
+                ];
 
 
-        // 3. DOM 元素選擇器與 Modal 相關變數
-        const weekTabsContainer = document.querySelector('.week-tabs');
-        const courseDisplay = document.querySelector('.course-list');
-        const faqListContainer = document.getElementById('faq-list-container');
-        
-        const modal = document.getElementById('courseModal');
-        const closeBtn = document.querySelector('.close-btn');
+                // 3. DOM 元素選擇器與 Modal 相關變數
+                const weekTabsContainer = document.querySelector('.week-tabs');
+                const courseDisplay = document.querySelector('.course-list');
+                const faqListContainer = document.getElementById('faq-list-container');
 
-        // 4. 函式：渲染課程卡片
-        function renderCourses(week) {
-            const courses = courseData[week];
-            if (!courses) {
-                courseDisplay.innerHTML = '<p>該週次暫無課程資料。</p>';
-                return;
-            }
+                const modal = document.getElementById('courseModal');
+                const closeBtn = document.querySelector('.close-btn');
 
-            courseDisplay.innerHTML = ''; 
+                // 4. 函式：渲染課程卡片
+                function renderCourses(week) {
+                    const courses = courseData[week];
+                    if (!courses) {
+                        courseDisplay.innerHTML = '<p>該週次暫無課程資料。</p>';
+                        return;
+                    }
 
-            courses.forEach((course) => {
-                const cardHTML = `
+                    courseDisplay.innerHTML = '';
+
+                    courses.forEach((course) => {
+                        const cardHTML = `
                     <div class="course-card">
                         <div class="course-header">
                             <h3>${course.name}</h3>
@@ -1096,81 +966,81 @@
                         </div>
                     </div>
                 `;
-                courseDisplay.insertAdjacentHTML('beforeend', cardHTML);
-            });
+                        courseDisplay.insertAdjacentHTML('beforeend', cardHTML);
+                    });
 
-            bindCourseModalEvents(); 
-            bindAccordionEvents(); 
-        }
-        
-        // 5. 函式：綁定課程 Modal 事件
-        function bindCourseModalEvents() {
-            const detailButtons = document.querySelectorAll('.detail-button');
-            
-            detailButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const courseId = this.getAttribute('data-course-id');
-                    const week = this.getAttribute('data-week');
-                    showCourseModal(courseId, week);
-                });
-            });
-            
-            closeBtn.onclick = function() {
-                modal.style.display = "none";
-            }
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
+                    bindCourseModalEvents();
+                    bindAccordionEvents();
                 }
-            }
-        }
-        
-        // 6. 函式：顯示浮動卡片並載入資料
-        function showCourseModal(courseId, week) {
-            const course = courseData[week].find(c => c.id === courseId);
 
-            if (!course) return;
+                // 5. 函式：綁定課程 Modal 事件
+                function bindCourseModalEvents() {
+                    const detailButtons = document.querySelectorAll('.detail-button');
 
-            document.getElementById('modal-course-name').textContent = course.name;
-            document.getElementById('modal-course-intro').textContent = course.intro;
+                    detailButtons.forEach(button => {
+                        button.addEventListener('click', function () {
+                            const courseId = this.getAttribute('data-course-id');
+                            const week = this.getAttribute('data-week');
+                            showCourseModal(courseId, week);
+                        });
+                    });
 
-            const knowledgeList = document.getElementById('modal-knowledge-list');
-            knowledgeList.innerHTML = course.knowledge.map(item => `<li>${item}</li>`).join('');
+                    closeBtn.onclick = function () {
+                        modal.style.display = "none";
+                    }
+                    window.onclick = function (event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+                    }
+                }
 
-            //document.getElementById('modal-schedule-am').textContent = course.schedule.am;
-            //document.getElementById('modal-schedule-pm').textContent = course.schedule.pm;
-			
-			// ✅ 新增：每日課表圖片
-			const scheduleImg = document.getElementById('modal-schedule-image');
-			if (course.scheduleImageUrl) {
-				scheduleImg.src = course.scheduleImageUrl;
-				scheduleImg.style.display = 'block';
-			} else {
-				scheduleImg.style.display = 'none';
-			}
+                // 6. 函式：顯示浮動卡片並載入資料
+                function showCourseModal(courseId, week) {
+                    const course = courseData[week].find(c => c.id === courseId);
 
-            const videoContainer = document.getElementById('modal-video-container');
-            const isPlaceholderId = course.videoId.startsWith('YOUR_YOUTUBE_ID');
-            
-            /*if (course.videoId && !isPlaceholderId) {
-                videoContainer.innerHTML = `
-                    <div class="modal-video-embed">
-                        <iframe src="https://www.youtube.com/embed/${course.videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                `;
-            } else {
-                videoContainer.innerHTML = `<p style="text-align: center;">此課程暫無成果影片展示。</p>`;
-            }*/
+                    if (!course) return;
 
-            modal.style.display = "block";
-        }
+                    document.getElementById('modal-course-name').textContent = course.name;
+                    document.getElementById('modal-course-intro').textContent = course.intro;
+
+                    const knowledgeList = document.getElementById('modal-knowledge-list');
+                    knowledgeList.innerHTML = course.knowledge.map(item => `<li>${item}</li>`).join('');
+
+                    //document.getElementById('modal-schedule-am').textContent = course.schedule.am;
+                    //document.getElementById('modal-schedule-pm').textContent = course.schedule.pm;
+
+                    // ✅ 新增：每日課表圖片
+                    const scheduleImg = document.getElementById('modal-schedule-image');
+                    if (course.scheduleImageUrl) {
+                        scheduleImg.src = course.scheduleImageUrl;
+                        scheduleImg.style.display = 'block';
+                    } else {
+                        scheduleImg.style.display = 'none';
+                    }
+
+                    const videoContainer = document.getElementById('modal-video-container');
+                    const isPlaceholderId = course.videoId.startsWith('YOUR_YOUTUBE_ID');
+
+                    /*if (course.videoId && !isPlaceholderId) {
+                        videoContainer.innerHTML = `
+                            <div class="modal-video-embed">
+                                <iframe src="https://www.youtube.com/embed/${course.videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        `;
+                    } else {
+                        videoContainer.innerHTML = `<p style="text-align: center;">此課程暫無成果影片展示。</p>`;
+                    }*/
+
+                    modal.style.display = "block";
+                }
 
 
-        // 7. 函式：渲染 FAQ 列表 
-        function renderFAQ() {
-            faqListContainer.innerHTML = '';
-            faqData.forEach(item => {
-                const faqHTML = `
+                // 7. 函式：渲染 FAQ 列表 
+                function renderFAQ() {
+                    faqListContainer.innerHTML = '';
+                    faqData.forEach(item => {
+                        const faqHTML = `
                     <div class="accordion-item">
                         <div class="faq-question" data-target="${item.id}">
                             ${item.question}
@@ -1180,132 +1050,118 @@
                         </div>
                     </div>
                 `;
-                faqListContainer.insertAdjacentHTML('beforeend', faqHTML);
-            });
-            bindAccordionEvents(); 
-        }
+                        faqListContainer.insertAdjacentHTML('beforeend', faqHTML);
+                    });
+                    bindAccordionEvents();
+                }
 
 
-        // 8. 函式：綁定 FAQ 手風琴事件 
-        function bindAccordionEvents() {
-            const allToggles = document.querySelectorAll('.faq-question');
+                // 8. 函式：綁定 FAQ 手風琴事件 
+                function bindAccordionEvents() {
+                    const allToggles = document.querySelectorAll('.faq-question');
 
-            allToggles.forEach(toggle => {
-                // 修正：確保事件監聽器只被添加一次
-                toggle.removeEventListener('click', handleToggleClick); 
-                toggle.addEventListener('click', handleToggleClick);
-            });
-        }
-        
-        // 9. 函式：處理手風琴點擊 (展開/收合邏輯)
-        function handleToggleClick(event) {
-            const toggle = event.currentTarget;
-            const answerId = toggle.getAttribute('data-target');
-            const answer = document.getElementById(answerId);
+                    allToggles.forEach(toggle => {
+                        // 修正：確保事件監聽器只被添加一次
+                        toggle.removeEventListener('click', handleToggleClick);
+                        toggle.addEventListener('click', handleToggleClick);
+                    });
+                }
 
-            const isActive = toggle.classList.toggle('active');
+                // 9. 函式：處理手風琴點擊 (展開/收合邏輯)
+                function handleToggleClick(event) {
+                    const toggle = event.currentTarget;
+                    const answerId = toggle.getAttribute('data-target');
+                    const answer = document.getElementById(answerId);
 
-            if (isActive) {
-                // 展開內容
-                answer.style.maxHeight = answer.scrollHeight + "px";
-                answer.style.paddingTop = "15px"; 
-                answer.style.paddingBottom = "15px";
-            } else {
-                // 收起內容
-                answer.style.maxHeight = "0";
-                answer.style.paddingTop = "0";
-                answer.style.paddingBottom = "0";
-            }
-        }
+                    const isActive = toggle.classList.toggle('active');
 
-        // 10. 函式：處理週次標籤點擊 (Tab 切換邏輯)
-        function handleWeekTabClick(event) {
-            const selectedTab = event.currentTarget;
-            const week = selectedTab.getAttribute('data-week');
+                    if (isActive) {
+                        // 展開內容
+                        answer.style.maxHeight = answer.scrollHeight + "px";
+                        answer.style.paddingTop = "15px";
+                        answer.style.paddingBottom = "15px";
+                    } else {
+                        // 收起內容
+                        answer.style.maxHeight = "0";
+                        answer.style.paddingTop = "0";
+                        answer.style.paddingBottom = "0";
+                    }
+                }
 
-            // 移除所有 Tab 的 active 狀態
-            document.querySelectorAll('.week-tab').forEach(tab => {
-                tab.classList.remove('active');
-            });
+                // 10. 函式：處理週次標籤點擊 (Tab 切換邏輯)
+                function handleWeekTabClick(event) {
+                    const selectedTab = event.currentTarget;
+                    const week = selectedTab.getAttribute('data-week');
 
-            // 為被點擊的 Tab 添加 active 狀態
-            selectedTab.classList.add('active');
+                    // 移除所有 Tab 的 active 狀態
+                    document.querySelectorAll('.week-tab').forEach(tab => {
+                        tab.classList.remove('active');
+                    });
 
-            // 渲染選定週次的課程
-            renderCourses(week);
-        }
+                    // 為被點擊的 Tab 添加 active 狀態
+                    selectedTab.classList.add('active');
+
+                    // 渲染選定週次的課程
+                    renderCourses(week);
+                }
 
 
-        // 11. 初始化設定 (頁面載入時執行)
-        function initialize() {
-            // 綁定週次切換事件
-            document.querySelectorAll('.week-tab').forEach(tab => {
-                tab.addEventListener('click', handleWeekTabClick);
-            });
+                // 11. 初始化設定 (頁面載入時執行)
+                function initialize() {
+                    // 綁定週次切換事件
+                    document.querySelectorAll('.week-tab').forEach(tab => {
+                        tab.addEventListener('click', handleWeekTabClick);
+                    });
 
-            // 渲染初始課程 (預設為 W1)
-            // 這裡會自動調用 renderCourses('W1')，並在其中呼叫 bindCourseModalEvents() 和 bindAccordionEvents()
-            renderCourses('W1');
-            
-            // 渲染 FAQ 列表
-            renderFAQ();
-			
-			// 綁定圖片放大功能
-			bindImageZoom();
-        }
-		
-		// 12. 函式:圖片放大功能
-		function bindImageZoom() {
-			const scheduleImage = document.getElementById('modal-schedule-image');
-			const imageModal = document.getElementById('imageModal');
-			const enlargedImage = document.getElementById('enlargedImage');
-			const imageModalClose = document.querySelector('.image-modal-close');
-			
-			// 點擊課表圖片放大
-			scheduleImage.addEventListener('click', function() {
-				if (this.src && this.style.display !== 'none') {
-					imageModal.style.display = 'block';
-					enlargedImage.src = this.src;
-				}
-			});
-			
-			// 點擊 X 關閉
-			imageModalClose.addEventListener('click', function() {
-				imageModal.style.display = 'none';
-			});
-			
-			// 點擊背景關閉
-			imageModal.addEventListener('click', function(e) {
-				if (e.target === imageModal) {
-					imageModal.style.display = 'none';
-				}
-			});
-			
-			// ESC 鍵關閉
-			document.addEventListener('keydown', function(e) {
-				if (e.key === 'Escape' && imageModal.style.display === 'block') {
-					imageModal.style.display = 'none';
-				}
-			});
-		}
+                    // 渲染初始課程 (預設為 W1)
+                    // 這裡會自動調用 renderCourses('W1')，並在其中呼叫 bindCourseModalEvents() 和 bindAccordionEvents()
+                    renderCourses('W1');
 
-        // 頁面載入後執行初始化
-        window.addEventListener('load', initialize);
-    </script>
-    </body>
+                    // 渲染 FAQ 列表
+                    renderFAQ();
+
+                    // 綁定圖片放大功能
+                    bindImageZoom();
+                }
+
+                // 12. 函式:圖片放大功能
+                function bindImageZoom() {
+                    const scheduleImage = document.getElementById('modal-schedule-image');
+                    const imageModal = document.getElementById('imageModal');
+                    const enlargedImage = document.getElementById('enlargedImage');
+                    const imageModalClose = document.querySelector('.image-modal-close');
+
+                    // 點擊課表圖片放大
+                    scheduleImage.addEventListener('click', function () {
+                        if (this.src && this.style.display !== 'none') {
+                            imageModal.style.display = 'block';
+                            enlargedImage.src = this.src;
+                        }
+                    });
+
+                    // 點擊 X 關閉
+                    imageModalClose.addEventListener('click', function () {
+                        imageModal.style.display = 'none';
+                    });
+
+                    // 點擊背景關閉
+                    imageModal.addEventListener('click', function (e) {
+                        if (e.target === imageModal) {
+                            imageModal.style.display = 'none';
+                        }
+                    });
+
+                    // ESC 鍵關閉
+                    document.addEventListener('keydown', function (e) {
+                        if (e.key === 'Escape' && imageModal.style.display === 'block') {
+                            imageModal.style.display = 'none';
+                        }
+                    });
+                }
+
+                // 頁面載入後執行初始化
+                window.addEventListener('load', initialize);
+            </script>
+</body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
